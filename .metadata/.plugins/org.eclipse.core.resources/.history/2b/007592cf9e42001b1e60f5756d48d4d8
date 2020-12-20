@@ -1,0 +1,6 @@
+
+public class Painting {
+	String paintType;
+	int width;
+	int height;
+}

@@ -1,0 +1,6 @@
+
+public class Sculpture extends ArtWord {
+	String material;
+	int weight;
+	
+}

@@ -1,0 +1,17 @@
+
+public class program {
+
+	public static void main(String[] args) {
+		
+		ArtWord tron = new ArtWord();
+		ArtWord harryPorter = new ArtWord("JK", 999);
+
+		tron.setArtishName("RG");
+		tron.setValueInPound(1000);
+		
+		Sculpture jeus = new Sculpture("JEUS", 99, "GOLD", 600);
+		
+		System.out.println("The artish name is "+tron.getArtishName()+" and the value is "+tron.getValueInPound());
+		System.out.println("The artish name is "+harryPorter.getArtishName()+" and the value is "+harryPorter.getValueInPound());
+	}
+}

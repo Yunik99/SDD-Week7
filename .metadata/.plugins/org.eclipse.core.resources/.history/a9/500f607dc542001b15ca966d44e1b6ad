@@ -1,0 +1,14 @@
+
+public class mainProgram {
+
+	public static void main(String[] args) {
+		
+		BallSport footBallSport = new BallSport("Football", "Net,Ball", "Pitch", 2, 11, 90);                  
+
+		BallSport Rugby = new BallSport("Rugby", "Goal,Ball", "Pitch", 2, 15, 90);
+		
+		MotorSport formula1 = new MotorSport("Formula 1", "CAR", location, numberOfTeams, playersPerTeam, laps)
+		
+	}
+
+}

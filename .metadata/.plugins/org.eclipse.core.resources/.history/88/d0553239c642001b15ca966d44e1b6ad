@@ -1,0 +1,17 @@
+
+public class Golf implements Sport{
+
+	String objectName;
+	String equipment;
+	String location;
+	
+	public String getEquipment() {
+		return null;
+	}
+	public String getName() {
+		return null;
+	}
+	public String getLocation() {
+		return null;
+	}
+}

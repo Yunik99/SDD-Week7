@@ -1,0 +1,14 @@
+
+public class ArtWord {
+	String artishName;
+	int valueInPound;
+	
+	public ArtWord() {
+		
+	}
+	
+	public ArtWord(String artishName, int valueInPound) {
+		this.artishName = artishName;
+		this.valueInPound = valueInPound;
+	}
+}

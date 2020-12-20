@@ -1,0 +1,25 @@
+
+public class Sculpture extends ArtWord {
+	String material;
+	int weight;
+	
+	public Sculpture(String material, int weight,String artishName, int valueInPound) {
+		super();
+		this.material = material;
+		this.weight = weight;
+	}
+	
+	
+	public String getMaterial() {
+		return material;
+	}
+	public void setMaterial(String material) {
+		this.material = material;
+	}
+	public int getWeight() {
+		return weight;
+	}
+	public void setWeight(int weight) {
+		this.weight = weight;
+	}
+}

@@ -1,0 +1,63 @@
+
+public class Employee {
+	String name;
+	int empNumber;
+	int hireDate;
+	double hourlyPayRate;
+	
+	public Employee() {
+		
+	}
+	
+	public Employee(String name, int empNumber, int hireDate, double hourlyPayRate) {
+		this.name = name;
+		this.empNumber = empNumber;
+		this.hireDate = hireDate;
+		this.hourlyPayRate = hourlyPayRate;
+	}
+	
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getEmpNumber() {
+		return empNumber;
+	}
+	public void setEmpNumber(int empNumber) {
+		this.empNumber = empNumber;
+	}
+	public int getHireDate() {
+		return hireDate;
+	}
+	public void setHireDate(int hireDate) {
+		this.hireDate = hireDate;
+	}
+	public double getHourlyPayRate() {
+		return hourlyPayRate;
+	}
+	public void setHourlyPayRate(double hourlyPayRate) {
+		this.hourlyPayRate = hourlyPayRate;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

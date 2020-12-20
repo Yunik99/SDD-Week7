@@ -1,0 +1,17 @@
+
+public class program {
+
+	public static void main(String[] args) {
+		Employee john =  new Employee("John", 001, 2020, 20);
+		productionWorker tim = new productionWorker("Tim", 002, 2019, 30, 1);
+		productionWorker cook = new productionWorker("cook", 003, 2019, 25, 2);
+		
+		Employee mary = new productionWorker("Mary", 004, 2020, 20, 1);
+		
+		
+		System.out.println("Employee "+john.getName()+ " who has the employe number "+john.getEmpNumber()+ " started working since "+john.getHireDate()+" earns "+john.hourlyPayRate +" in an hour");
+		System.out.println("Employee "+tim.getName()+ " who has the employe number "+tim.getEmpNumber()+ " started working since "+tim.getHireDate()+" earns "+tim.hourlyPayRate +" in an hour");
+		System.out.println("Employee "+cook.getName()+ " who has the employe number "+cook.getEmpNumber()+ " started working since "+cook.getHireDate()+" earns "+cook.hourlyPayRate +" in an hour");
+		System.out.println("Employee "+mary.getName()+ " who has the employe number "+mary.getEmpNumber()+ " started working since "+mary.getHireDate()+" earns "+mary.hourlyPayRate +" in an hour");
+	}
+}

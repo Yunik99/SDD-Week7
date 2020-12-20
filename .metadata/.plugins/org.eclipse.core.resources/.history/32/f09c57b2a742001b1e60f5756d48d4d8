@@ -1,0 +1,30 @@
+
+public class productionWorker extends Employee {
+
+	int shift;
+
+	public productionWorker() {
+		
+	}
+	
+	public productionWorker(String name, int empNumber, int hireDate, double hourlyPayRate, int shift) {
+		super(name, empNumber, hireDate, hourlyPayRate);
+		this.shift = shift;
+	}
+	
+	public int getShift() {
+		return shift;
+	}
+	
+	public void setShift(int shift) {
+		this.shift = shift;
+	}
+	public double getPay(int numOfHours) {
+		if() {
+			
+		}
+		else 
+			return numOfHours * hourlyPayRate;
+		}
+		}
+}

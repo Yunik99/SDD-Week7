@@ -1,0 +1,19 @@
+
+public class MotorSport implements Sport, TeamSport {
+
+	public int getNumberOfTeams() {
+		return 0;
+	}
+	public int getPlayersPerTeam() {
+		return 0;
+	}
+	public String getEquipment() {
+		return null;
+	}
+	public String getName() {
+		return null;
+	}
+	public String getLocation() {
+		return null;
+	}
+}

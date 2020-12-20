@@ -1,0 +1,6 @@
+
+public class Painting extends ArtWord {
+	String paintType;
+	int width;
+	int height;
+}

@@ -1,0 +1,13 @@
+
+public class Golf implements Sports{
+
+	public String getEquipment() {
+		return null;
+	}
+	public String getName() {
+		return null;
+	}
+	public String getLocation() {
+		return null;
+	}
+}

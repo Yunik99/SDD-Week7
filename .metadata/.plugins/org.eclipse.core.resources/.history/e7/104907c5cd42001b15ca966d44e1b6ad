@@ -1,0 +1,22 @@
+
+public class mainProgram {
+
+	public static void main(String[] args) {
+		
+		BallSport ballAry[] = new BallSport[2];
+				
+		
+		ballAry[0] = new BallSport("Football", "Net,Ball", "Pitch", 2, 11, 90);                  
+
+		ballAry[1] = new BallSport("Rugby", "Goal,Ball", "Pitch", 2, 15, 90);
+		
+		MotorSport formula1 = new MotorSport("Formula 1", "CAR", "TRACK", 11, 2, 70);          
+		MotorSport motoGp = new MotorSport("Moto GP", "Motorcycle", "TRACK", 13, 3, 80);
+		
+		RacketSports tennis = new RacketSports("Tennis", "Racket","Court", 40);
+		RacketSports badminton= new RacketSports("Badminton", "Racket","Court", 30);
+		
+		Golf other = new Golf("GOLF", "GOLF CLUBS", "COURSES");
+	}
+
+}

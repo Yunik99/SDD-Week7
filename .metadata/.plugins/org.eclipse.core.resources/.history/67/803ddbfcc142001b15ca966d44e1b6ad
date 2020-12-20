@@ -1,0 +1,8 @@
+
+public interface Sport {
+	
+	public String getEquiment();
+	public String getName();
+	public String getLocation();
+	
+}

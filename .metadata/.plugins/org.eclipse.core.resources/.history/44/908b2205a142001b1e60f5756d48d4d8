@@ -1,0 +1,41 @@
+
+public class ArtWord {
+	String artishName;
+	int valueInPound;
+	
+	public ArtWord() {
+		
+	}
+	
+	public ArtWord(String artishName, int valueInPound) {
+		this.artishName = artishName;
+		this.valueInPound = valueInPound;
+	}
+
+	public String getArtishName() {
+		return artishName;
+	}
+
+	public void setArtishName(String artishName) {
+		this.artishName = artishName;
+	}
+
+	public int getValueInPound() {
+		return valueInPound;
+	}
+
+	public void setValueInPound(int valueInPound) {
+		this.valueInPound = valueInPound;
+	}
+	public void className() {
+		System.out.println("This is a Artwork class.");
+	}
+}
+
+
+
+
+
+
+
+

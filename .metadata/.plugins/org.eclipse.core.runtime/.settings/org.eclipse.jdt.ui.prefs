@@ -1,0 +1,9 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="ArtWord"><rhs name\="ArtWord"/><rhs name\="Sculpture"/><rhs name\="Painting"/></lhs><lhs name\="Sculpture"><rhs name\="Sculpture"/></lhs><lhs name\="Painting"><rhs name\="Painting"/></lhs><lhs name\="Employee"><rhs name\="Employee"/><rhs name\="productionWorker"/></lhs><lhs name\="productionWorker"><rhs name\="productionWorker"/></lhs><lhs name\="Sport"><rhs name\="BallSport"/><rhs name\="MotorSport"/><rhs name\="RacketSports"/><rhs name\="Golf"/></lhs><lhs name\="TeamSport"><rhs name\="BallSport"/><rhs name\="MotorSport"/></lhs><lhs name\="BallSport"><rhs name\="BallSport"/></lhs><lhs name\="MotorSport"><rhs name\="MotorSport"/></lhs><lhs name\="RacketSports"><rhs name\="RacketSports"/></lhs><lhs name\="Golf"><rhs name\="Golf"/></lhs></history>
+content_assist_number_of_computers=13
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=19
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

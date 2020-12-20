@@ -1,0 +1,56 @@
+
+public class Painting extends ArtWord {
+	String paintType;
+	int width;
+	int height;
+	int weight;
+	
+	public Painting(String artishName, int valueInPound, String paintType, int width, int height, int weight) {
+		super(artishName,valueInPound);
+		this.paintType = paintType;
+		this.width = width;
+		this.height = height;
+		this.weight = weight;
+	}
+	
+	public String getPaintType() {
+		return paintType;
+	}
+	public void setPaintType(String paintType) {
+		this.paintType = paintType;
+	}
+	public int getWidth() {
+		return width;
+	}
+	public void setWidth(int width) {
+		if(width>0) {
+			this.width = width;
+		}
+		else {
+			System.out.println("The width is invalid. Please try again");
+		}
+	}
+	public int getHeight() {
+		return height;
+	}
+	public void setHeight(int height) {
+		if(width>0) {
+			this.height = height;
+		}
+		else {
+			System.out.println("The height is invalid. Please try again");
+		}
+	}
+	public int getWeight() {
+		return weight;
+	}
+	public void getWeight(int length) {
+		if(width>0) {
+			this.weight = length;
+		}
+		else {
+			System.out.println("The length is invalid. Please try again");
+		}	
+	}
+}
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="ArtWord"/>
+    <fullyQualifiedTypeName name="Sculpture"/>
+    <fullyQualifiedTypeName name="Painting"/>
+    <fullyQualifiedTypeName name="productionWorker"/>
+    <fullyQualifiedTypeName name="Employee"/>
+    <fullyQualifiedTypeName name="TeamSport"/>
+    <fullyQualifiedTypeName name="Sport"/>
+    <fullyQualifiedTypeName name="BallSport"/>
+    <fullyQualifiedTypeName name="MotorSport"/>
+    <fullyQualifiedTypeName name="RacketSports"/>
+    <fullyQualifiedTypeName name="Golf"/>
+</qualifiedTypeNameHistroy>
